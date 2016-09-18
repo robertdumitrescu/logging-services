@@ -1,0 +1,16 @@
+{
+  "name": "localpkg-generic-logger",
+  "version": "1.0.0",
+  "description": "Class to offer logging functionality based on flows, components, promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "logger",
+    "generic",
+    "logging"
+  ],
+  "author": "Robert Dumitrescu",
+  "license": "ISC"
+}
