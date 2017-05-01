@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = require('./generic.Logger');
+module.exports = require('./src/generic.Logger');
