@@ -1,16 +1,55 @@
 {
-  "name": "localpkg-generic-logger",
+  "name": "logging-services",
   "version": "1.0.0",
-  "description": "Class to offer logging functionality based on flows, components, promises",
+  "description": "Mini package that offers documentation and minimal logging capabilities",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "logger",
-    "generic",
-    "logging"
-  ],
-  "author": "Robert Dumitrescu",
-  "license": "ISC"
+  "type": "module",
+  "author": {
+    "name": "Robert Dumitrescu",
+    "email": "robertdum01@gmail.com",
+    "url": "http://rdumitrescu.com"
+  },
+  "bugs": {
+    "url": "https://github.com/robertdumitrescu/logging-services/issues"
+  },
+  "homepage": "https://github.com/robertdumitrescu/logging-services#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertdumitrescu/logging-services.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "date-format": "^3.0.0",
+    "debug": "^4.1.1",
+    "fecha": "^4.2.0",
+    "flatted": "^2.0.1",
+    "rfdc": "^1.1.4",
+    "streamroller": "^2.2.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "10.1.0",
+    "benchmark": "^2.1.4",
+    "c8": "7.1.0",
+    "chai": "4.2.0",
+    "configs": "git@github.com:robertdumitrescu/configs.git",
+    "eslint": "6.8.0",
+    "eslint-plugin-import": "2.20.2",
+    "eslint-plugin-jsdoc": "^30.6.5",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-optimize-regex": "1.2.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-sort-imports-es6-autofix": "0.5.0",
+    "eslint-plugin-standard": "4.0.1",
+    "lodash.get": "4.4.2",
+    "mocha": "8.0.1",
+    "nyc": "^15.1.0",
+    "ololog": "1.1.156",
+    "prettier": "2.0.5",
+    "sinon": "9.0.2",
+    "sinon-chai": "3.5.0",
+    "telejson": "4.0.0"
+  }
 }

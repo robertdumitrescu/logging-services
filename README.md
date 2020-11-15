@@ -1,1 +1,11 @@
-# localPKG-generic-logger A
+# Logging Services
+
+## Overview
+
+## Levels of logging
+
+## Predefined Formats
+
+### Tiny
+
+### Verbose
